@@ -20,7 +20,7 @@ app.get('/about-us', (req, res) => {
   res.render('pages/about-us',{'title':title});
 });
 
-///chessecake
+///doughnut
 app.get('/doughnut', (req, res) => {
   var title = 'Our doughnut  Page';
   res.render('pages/doughnut',{'title':title});
@@ -32,6 +32,16 @@ app.get('/pizza', (req, res) => {
   res.render('pages/pizza',{'title':title});
 });
 
+app.get('/pasta', (req, res) => {
+  var title = 'Our pasta Page';
+  res.render('pages/pasta',{'title':title});
+});
+
+//salad
+app.get('/salad', (req, res) => {
+  var title = 'Our salad Page';
+  res.render('pages/salad',{'title':title});
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);

@@ -21,15 +21,15 @@ app.get('/about-us', (req, res) => {
 });
 
 ///chessecake
-app.get('/cheesecake', (req, res) => {
-  var title = 'Our cheesecake Page';
-  res.render('pages/cheesecake',{'title':title});
+app.get('/doughnut', (req, res) => {
+  var title = 'Our doughnut  Page';
+  res.render('pages/doughnut',{'title':title});
 });
 
 
-app.get('/apple pie', (req, res) => {
-  var title = 'Our apple pie Page';
-  res.render('pages/apple-pie',{'title':title});
+app.get('/pizza', (req, res) => {
+  var title = 'Our pizza Page';
+  res.render('pages/pizza',{'title':title});
 });
 
 

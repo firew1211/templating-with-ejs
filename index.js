@@ -15,32 +15,32 @@ app.get('/', (req, res) => {
 
 
 ///about-us
-app.get('/about-us', (req, res) => {
-  var title = 'Our about Us Page';
-  res.render('pages/about-us',{'title':title});
+app.get('/about-tigray', (req, res) => {
+  var title = 'About Tigray Page';
+  res.render('pages/about-tigray',{'title':title});
 });
 
-///doughnut
-app.get('/doughnut', (req, res) => {
-  var title = 'Our doughnut  Page';
-  res.render('pages/doughnut',{'title':title});
+///tigray-genocide
+app.get('/tigray-genocide', (req, res) => {
+  var title = 'Tigray Genocide  Page';
+  res.render('pages/tigray-genocide',{'title':title});
 });
 
 
-app.get('/pizza', (req, res) => {
-  var title = 'Our pizza Page';
-  res.render('pages/pizza',{'title':title});
+app.get('/tigray-conflict', (req, res) => {
+  var title = 'Tigray Conflict Page';
+  res.render('pages/tigray-conflict',{'title':title});
 });
 
-app.get('/pasta', (req, res) => {
-  var title = 'Our pasta Page';
-  res.render('pages/pasta',{'title':title});
+app.get('/tdf', (req, res) => {
+  var title = 'TDF Page';
+  res.render('pages/tdf',{'title':title});
 });
 
-//salad
-app.get('/salad', (req, res) => {
-  var title = 'Our salad Page';
-  res.render('pages/salad',{'title':title});
+//tigray-leader 
+app.get('/tigray-leader', (req, res) => {
+  var title = 'Tigray Leader Page';
+  res.render('pages/tigray-leader',{'title':title});
 });
 
 app.listen(port, () => {
